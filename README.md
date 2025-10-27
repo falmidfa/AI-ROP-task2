@@ -11,6 +11,7 @@ $ sudo apt install ros-humble-turtlesim
 ---
 
 - To check if the package is installed:
+$ source /opt/ros/humble/setup.bash
 $ ros2 pkg executables turtlesim
 
 - To start turtlesim:
@@ -18,12 +19,14 @@ $ source /opt/ros/humble/setup.bash
 $ ros2 run turtlesim turtlesim_node
 
 - To run a new node:**Terminal2**
+$ source /opt/ros/humble/setup.bash
 $ ros2 run turtlesim turtle_teleop_key
 
 - To add a new node or to change the size and width install **rqt**: **Terminal3**
 $ su root
 $ sudo apt update
 $ sudo apt install '~nros-humble-rqt*'
+$ source /opt/ros/humble/setup.bash
 $ rqt
 
 - To run node2:
