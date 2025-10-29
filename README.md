@@ -10,18 +10,18 @@
 - source /opt/ros/humble/setup.bash
 - ros2 pkg executables turtlesim
 
-- To start turtlesim:
+# To start turtlesim:
 - source /opt/ros/humble/setup.bash
 - ros2 run turtlesim turtlesim_node
 
-- To run a new node:**Terminal2**
+# To run a new node:**Terminal2**
 - source /opt/ros/humble/setup.bash
 - ros2 run turtlesim turtle_teleop_key
 
-- To add a new node or to change the size and width install **rqt**: **Terminal3**
+# To add a new node or to change the size and width install **rqt**: **Terminal3**
 - source /opt/ros/humble/setup.bash
 - rqt 
 
-- To run node2:
+# To run node2:
 - source /opt/ros/humble/setup.bash
 - ros2 run turtlesim turtle_teleop_key --ros-args -r turtle1/cmd_vel:=/turtle2/cmd_vel
